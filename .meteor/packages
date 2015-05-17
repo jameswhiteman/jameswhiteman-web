@@ -10,3 +10,4 @@ insecure
 coffeescript
 materialize:materialize
 stylus
+iron:router

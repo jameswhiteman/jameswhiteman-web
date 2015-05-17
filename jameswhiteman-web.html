@@ -3,15 +3,20 @@
 </head>
 
 <body>
+</body>
+
+<template name="site">
 
     <header>
+        {{> yield "header"}}
     </header>
 
     <main>
-        <h1>Hello</h1>
+        {{> yield "content"}}
     </main>
 
-    <footer>
+    <footer class="page-footer">
+        {{> yield "footer"}}
     </footer>
 
-</body>
+</template>
