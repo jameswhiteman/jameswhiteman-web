@@ -1,0 +1,114 @@
+[
+    {
+        name:"Games",
+        route:"games",
+        finished:[
+            {
+                name:"Galaxy Blast",
+                route:"galaxy-blast",
+                platforms:[
+                    "Windows XP+"
+                ],
+                time:1234954800000,
+                requirements:[
+                    "Mouse",
+                    "Keyboard"
+                ],
+                description:"A frenetic endless space-shooter where you destroy asteroids and aliens to get the highest score",
+                skills:[
+                    "Game Maker 7",
+                    "GIMP"
+                ],
+                screenshots:[
+                    "images/games/galaxy-blast-1.jpg",
+                    "images/games/galaxy-blast-2.jpg"
+                ],
+                links:[
+                    {
+                        name:"Download",
+                        url:"download/galaxy-blast.zip"
+                    }
+                ]
+            }
+        ],
+        unfinished:[
+            {
+                name:"Super Smash Bros. Quarrel",
+                route:"super-smash-bros-quarrel",
+                platforms:[
+                    "Windows XP+"
+                ],
+                time:1253268000000,
+                requirements:[
+                    "Keyboard"
+                ],
+                description:"A recreation of Super Smash Bros. for PC",
+                skills:[
+                    "Game Maker 7",
+                    "GIMP"
+                ],
+                screenshots:[
+                    "images/games/super-smash-bros-quarrel-1.jpg",
+                    "images/games/super-smash-bros-quarrel-2.jpg"
+                ],
+                links:[
+                ]
+            }
+        ],
+        lost:[
+            {
+                name:"Alien Attack",
+                route:"alien-attack",
+                platforms:[
+                    "Windows XP+"
+                ],
+                time:1183480200000,
+                requirements:[
+                    "Keyboard"
+                ],
+                description:"A simple Galaga-esque local multiplayer shooter in which you defend yourselves against aliens.",
+                skills:[
+                    "Game Maker 6",
+                    "GIMP"
+                ],
+                screenshots:[
+                    "images/games/alien-attack-1.jpg",
+                    "images/games/alien-attack-2.jpg"
+                ],
+                links:[
+                ]
+            }
+        ]
+    },
+    {
+        name:"Sites",
+        route:"sites",
+        finished:[
+            {
+                name:"Endeal",
+                route:"endeal",
+                time:1430560800000,
+                description:"Company website for Endeal, my software development company.",
+                skills:[
+                    "Meteor",
+                    "Materialize CSS"
+                ],
+                screenshots:[
+                    "images/sites/endeal-1.jpg",
+                    "images/sites/endeal-2.jpg"
+                ],
+                links:[
+                    {
+                        name:"Site",
+                        url:"http://endeal.me/"
+                    }
+                ]
+            }
+        ],
+        unfinished:[
+        ],
+        lost:[
+        ]
+
+    }
+]

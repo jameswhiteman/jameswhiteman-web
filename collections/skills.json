@@ -1,0 +1,49 @@
+[
+    {
+        name:"Languages",
+        values: [
+            "Java",
+            "Javascript",
+            "Coffeescript",
+            "Typescript",
+            "C++",
+            "C#",
+            "Objective-C",
+            "Scala",
+            "PHP",
+            "HTML",
+            "CSS",
+            "GML",
+            "Stylus",
+            "SQL",
+            "English, Spanish, Portuguese"
+        ]
+    },
+    {
+        name:"Frameworks",
+        values: [
+            "Angular JS",
+            "Materialize CSS",
+            "Java Server Faces",
+            "Java Servlets"
+        ]
+    },
+    {
+        name:"Software",
+        values: [
+            "Visual Studio",
+            "Android Studio",
+            "Eclipse",
+            "XCode",
+            "Git",
+            "Maven",
+            "Gradle",
+            "CMake",
+            "VIM",
+            "ELinks",
+            "Android SDK and command-line tools",
+            "Meteor",
+            "Inkscape"
+        ]
+    }
+]

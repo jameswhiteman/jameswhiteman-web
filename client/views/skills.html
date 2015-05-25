@@ -1,0 +1,12 @@
+<template name="skills">
+    <div class="container row">
+        {{#each skills}}
+        <ul class="collection with-header col s12 m8 offset-m2">
+            <li class="collection-header"><h5>{{name}}</h5></li>
+            {{#each values}}
+                <li class="collection-item">{{this}}</li>
+            {{/each}}
+        </ul>
+        {{/each}}
+    </div>
+</template>

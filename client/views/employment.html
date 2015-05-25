@@ -1,0 +1,52 @@
+<template name="employment">
+    <div class="container row">
+        {{#each jobs}}
+        <div class="col s12 l8 offset-l2">
+            <div class="card large teal lighten-4">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="{{image}}">
+                    <span class="card-title truncate activator">{{company}}</span>
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">{{jobTitle}}<i class="mdi-navigation-more-vert right"></i></span>
+                    <p class="flow-text truncate activator">
+                        {{#each locations}}
+                            {{this}}
+                            <br/>
+                        {{/each}}
+                        {{#each timeSet}}
+                                {{timePeriod start end}}
+                                <br/>
+                        {{/each}}
+                    </p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">
+                        {{company}}<i class="mdi-navigation-close right"></i>
+                    </span>
+                    <p>
+                    Responsibilities:
+                    <br/>
+                    {{#each responsibilities}} 
+                        &bull; {{this}}
+                        <br/>
+                    {{/each}}
+                    <br/>
+                    Skill Set:
+                    <br/>
+                    {{#each skillSet}}
+                        &bull; {{this}}
+                        <br/>
+                    {{/each}}
+                    <br/>
+                    {{#each products}}
+                        <a href="{{link}}">{{title}}</a>
+                        <br/>
+                    {{/each}}
+                    </p>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</template>

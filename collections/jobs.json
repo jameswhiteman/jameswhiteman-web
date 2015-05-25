@@ -1,0 +1,130 @@
+[
+    {
+        company:'Microsoft',
+        jobTitle:'Software Development Engineer in Test Intern',
+        image:'images/employment/job-microsoft.jpg',
+        timeSet:[
+            {
+                start:1399564800000,
+                end:1407589200000
+            }
+        ],
+        responsibilities: [
+            "Helped design and develop new software with the special projects team at 343 Industries",
+            "Created unit tests for smoother software integration testing phase",
+            "Wrote documentation for easier future onboarding"
+        ],
+        skillSet:[
+            "C#",
+            "Typescript",
+            "Microsoft SQL Server",
+            "Visual Studio",
+            "ASP.NET",
+            "Codeflow"
+        ],
+        locations:[
+            "Kirkland, Washington"
+        ],
+        products:[
+            {
+                title:"(Internal Tool used by Microsoft Games Studio)",
+                link:""
+            }
+        ]
+    },
+    {
+        company:'Klout',
+        jobTitle:'Mobile Software Development Intern',
+        image:'images/employment/job-klout.png',
+        timeSet:[
+            {
+                start:1369681200000,
+                end:1378407600000
+            }
+        ],
+        responsibilities: [
+            "Worked with the mobile, design, and API teams on creating the Cinch app for iOS",
+            "Created Klout SDK for Android to provide developers with native integration to obtain Klout public API data"
+        ],
+        skillSet:[
+            "Java",
+            "Scala",
+            "Maven",
+            "Objective-C",
+            "XCode",
+            "Git"
+        ],
+        locations:[
+            "San Francisco, CA"
+        ],
+        products:[
+            {
+                title:"Cinch",
+                link:"http://blog.klout.com/category/cinch/"
+            },
+            {
+                title:"Klout Android SDK",
+                link:""
+            }
+        ]
+    },
+    {
+        company:'CODE2040',
+        jobTitle:'2013 Fellow',
+        image:'images/employment/job-code2040.png',
+        timeSet:[
+            {
+                start:1369681200000,
+                end:1378407600000
+            }
+        ],
+        responsibilities: [
+            "Engaged in a variety of scheduled activity through the program"
+        ],
+        skillSet:[
+            "Personability",
+            "Thoughtfulness",
+            "General Coding Competence",
+            "Ambition"
+        ],
+        locations:[
+            "San Francisco, CA"
+        ],
+        products:[
+            {
+                title:'CODE2040 Fellowship Program, 2013',
+                link:'http://www.code2040.org/'
+            }
+        ]
+    },
+    {
+        company:'Keller Williams',
+        jobTitle:'Data Entry Clerk',
+        image:'images/employment/job-keller-williams.jpg',
+        timeSet:[
+            {
+                start:1358292600000,
+                end:1367721000000
+            }
+
+        ],
+        responsibilities: [
+            "Enter customer contact information into database",
+            "Call open-house customers to schedule meetings",
+            "Respond to boss's e-mails and organize calendar"
+        ],
+        skillSet:[
+            "Resilience for repetitive tasks",
+            "Communication"
+        ],
+        locations:[
+            "Palo Alto, CA"
+        ],
+        products:[
+            {
+                title:'(Internal Database)',
+                link:'http://www.julianalee.com/'
+            }
+        ]
+    }
+]

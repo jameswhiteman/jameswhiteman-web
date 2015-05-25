@@ -1,0 +1,12 @@
+<template name="experience">
+    <div class="container">
+        {{#each experiences}}
+            <ul class="collection with-header">
+                <li class="collection-header">{{name}}</li>
+                {{#each finished}}
+                    <li class="collection-item">{{name}}</li>
+                {{/each}}
+            </ul>
+        {{/each}}
+    </div>
+</template>
